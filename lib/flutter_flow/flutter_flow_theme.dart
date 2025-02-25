@@ -122,7 +122,7 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color error = const Color(0xFFFF5963);
   late Color info = const Color(0xFFFFFFFF);
 
-  late Color customColor1 = const Color(0xFF46CB65);
+  late Color customColor1 = Color(0xFF46CB65);
 }
 
 abstract class Typography {
@@ -231,7 +231,7 @@ class ThemeTypography extends Typography {
   String get labelLargeFamily => 'Inter';
   TextStyle get labelLarge => GoogleFonts.getFont(
         'Inter',
-        color: const Color(0x3314181B),
+        color: Color(0x3314181B),
         fontWeight: FontWeight.normal,
         fontSize: 18.0,
         fontStyle: FontStyle.normal,
@@ -239,7 +239,7 @@ class ThemeTypography extends Typography {
   String get labelMediumFamily => 'Inter';
   TextStyle get labelMedium => GoogleFonts.getFont(
         'Inter',
-        color: const Color(0x4E14181B),
+        color: Color(0x4E14181B),
         fontWeight: FontWeight.w500,
         fontSize: 20.0,
         fontStyle: FontStyle.normal,
